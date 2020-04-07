@@ -1,3 +1,29 @@
-psql -U postgres(user) - to open postgresql console
-\l - List all databases
-\c <database name> - connect to the particular database
+psql -U postgres(user)  - to open postgresql console
+
+\l                      - List all databases
+
+\dt                     - list of all tables
+
+\q                      - to quit
+
+\c database             - to connect to a different database
+
+\pset pager             - to toggle  on/off whether a screen pager is used for long output
+
+\d                      - to describe (list) what tables are in the database
+
+\d table                - to describe attributes of a table
+
+\i filename             - to run (include) a script file of SQL commands
+
+\e filename             - to edit an existing script and execute the commands
+
+\e                      - to edit the last SQL command and execute upon exit
+
+\w filename             - to write the last SQL command to a file
+
+\?                      - show the list of \postgres commands
+
+\h                      - show the list of SQLcommands
+
+\h command              - show syntax on this SQL command
