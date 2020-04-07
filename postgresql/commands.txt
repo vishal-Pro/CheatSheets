@@ -1,0 +1,3 @@
+psql -U postgres(user) - to open postgresql console
+\l - List all databases
+\c <database name> - connect to the particular database
